@@ -1,0 +1,42 @@
+{
+  "domain": "consultation-representation-gap",
+  "version": 1,
+  "sample_id": "public-sample-003",
+  "actors": [
+    "规划统筹部门",
+    "执行部门",
+    "公众咨询团队",
+    "审计与发布人员"
+  ],
+  "facts": [
+    "规划覆盖住房、医疗和青年发展",
+    "公众咨询收到超过一万七千份意见或建议",
+    "住房与医疗目标具有明确的跨年度数量"
+  ],
+  "constraints": [
+    "意见覆盖画像",
+    "代表性缺口识别",
+    "补充触达排程",
+    "匿名方法公开"
+  ],
+  "records": [
+    {
+      "id": "consultation-representation-gap-source",
+      "kind": "source",
+      "label": "规划覆盖住房、医疗和青年发展",
+      "status": "active"
+    },
+    {
+      "id": "consultation-representation-gap-review",
+      "kind": "review",
+      "label": "意见覆盖画像",
+      "status": "pending"
+    },
+    {
+      "id": "consultation-representation-gap-history",
+      "kind": "history",
+      "label": "住房与医疗目标具有明确的跨年度数量",
+      "status": "historical"
+    }
+  ]
+}
