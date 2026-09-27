@@ -1,0 +1,87 @@
+{
+  "_note": "全部为虚构数据，人物标识为占位代号，不含任何真实个人信息。",
+  "benchmark": {
+    "population_total": 100000,
+    "districts": {
+      "central_western": 5000,
+      "wan_chai": 4000,
+      "eastern": 9000,
+      "southern": 5000,
+      "yau_tsim_mong": 6000,
+      "sham_shui_po": 8000,
+      "kowloon_city": 7000,
+      "wong_tai_sin": 6000,
+      "kwun_tong": 9000,
+      "kwai_tsing": 6000,
+      "tsuen_wan": 5000,
+      "tuen_mun": 7000,
+      "yuen_long": 6000,
+      "north": 4000,
+      "tai_po": 4000,
+      "sha_tin": 8000,
+      "sai_kung": 4000,
+      "islands": 3000
+    },
+    "groups": {
+      "prh_waiting": 15000,
+      "long_term_carer": 8000,
+      "youth": 12000,
+      "older_adult": 18000,
+      "ethnic_minority": 3000,
+      "disability": 6000
+    },
+    "age_bands": {
+      "15_24": 11000,
+      "25_39": 22000,
+      "40_59": 33000,
+      "60_plus": 34000
+    }
+  },
+  "baseline_submissions": [
+    { "id": "sub-org-a-1", "received_at": "2026-06-02T09:10:00Z", "channel": "online_form", "person_id": null, "org_id": "concern-group-a", "district": "eastern", "topics": ["housing"], "self": { "groups": [], "age_band": null }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-org-a-2", "received_at": "2026-06-05T20:41:00Z", "channel": "online_form", "person_id": null, "org_id": "concern-group-a", "district": "eastern", "topics": ["housing"], "self": { "groups": [], "age_band": null }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-org-a-3", "received_at": "2026-06-18T11:02:00Z", "channel": "email", "person_id": null, "org_id": "concern-group-a", "district": "eastern", "topics": ["housing", "healthcare"], "self": { "groups": [], "age_band": null }, "signature_count": 0, "duplicate_of": null },
+
+    { "id": "sub-p01", "received_at": "2026-06-03T10:00:00Z", "channel": "online_form", "person_id": "p01", "org_id": null, "district": "wan_chai", "topics": ["youth_development"], "self": { "groups": ["youth"], "age_band": "15_24" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p02", "received_at": "2026-06-03T12:30:00Z", "channel": "online_form", "person_id": "p02", "org_id": null, "district": "eastern", "topics": ["housing"], "self": { "groups": [], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p03", "received_at": "2026-06-04T08:15:00Z", "channel": "online_form", "person_id": "p03", "org_id": null, "district": "eastern", "topics": ["healthcare"], "self": { "groups": [], "age_band": "60_plus" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p03-copy", "received_at": "2026-06-04T08:20:00Z", "channel": "email", "person_id": "p03", "org_id": null, "district": "eastern", "topics": ["healthcare"], "self": { "groups": [], "age_band": "60_plus" }, "signature_count": 0, "duplicate_of": "sub-p03" },
+    { "id": "sub-p04", "received_at": "2026-06-06T19:00:00Z", "channel": "online_form", "person_id": "p04", "org_id": null, "district": "yau_tsim_mong", "topics": ["housing"], "self": { "groups": ["older_adult"], "age_band": "60_plus" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p05", "received_at": "2026-06-07T19:10:00Z", "channel": "online_form", "person_id": "p05", "org_id": null, "district": "wan_chai", "topics": ["youth_development"], "self": { "groups": ["youth"], "age_band": "15_24" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p06", "received_at": "2026-06-08T19:20:00Z", "channel": "online_form", "person_id": "p06", "org_id": null, "district": "central_western", "topics": ["housing", "youth_development"], "self": { "groups": ["youth"], "age_band": "25_39" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p07", "received_at": "2026-06-09T19:30:00Z", "channel": "online_form", "person_id": "p07", "org_id": null, "district": "eastern", "topics": ["youth_development"], "self": { "groups": ["youth"], "age_band": "15_24" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p08", "received_at": "2026-06-10T09:00:00Z", "channel": "online_form", "person_id": "p08", "org_id": null, "district": "eastern", "topics": ["housing"], "self": { "groups": [], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p09", "received_at": "2026-06-11T09:00:00Z", "channel": "email", "person_id": "p09", "org_id": null, "district": "wan_chai", "topics": ["healthcare"], "self": { "groups": [], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p10", "received_at": "2026-06-12T09:00:00Z", "channel": "online_form", "person_id": "p10", "org_id": null, "district": "central_western", "topics": ["housing"], "self": { "groups": ["older_adult"], "age_band": "60_plus" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p11", "received_at": "2026-06-13T09:00:00Z", "channel": "online_form", "person_id": "p11", "org_id": null, "district": "yau_tsim_mong", "topics": ["housing"], "self": { "groups": [], "age_band": "25_39" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-p12", "received_at": "2026-06-14T09:00:00Z", "channel": "online_form", "person_id": "p12", "org_id": null, "district": "sha_tin", "topics": ["youth_development"], "self": { "groups": ["youth"], "age_band": "15_24" }, "signature_count": 0, "duplicate_of": null },
+
+    { "id": "sub-prh-1", "received_at": "2026-06-15T15:00:00Z", "channel": "post", "person_id": "p13", "org_id": null, "district": "sham_shui_po", "topics": ["housing"], "self": { "groups": ["prh_waiting"], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-carer-1", "received_at": "2026-06-16T10:30:00Z", "channel": "phone", "person_id": "p14", "org_id": null, "district": "kwun_tong", "topics": ["healthcare"], "self": { "groups": ["long_term_carer"], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+
+    { "id": "sub-pet-1", "received_at": "2026-06-19T18:00:00Z", "channel": "online_form", "person_id": null, "org_id": null, "district": "yuen_long", "topics": ["housing"], "self": { "groups": [], "age_band": null }, "signature_count": 320, "duplicate_of": null },
+
+    { "id": "sub-anon-1", "received_at": "2026-06-20T11:00:00Z", "channel": "post", "person_id": null, "org_id": null, "district": null, "topics": ["healthcare"], "self": { "groups": [], "age_band": null }, "signature_count": 0, "duplicate_of": null },
+    { "id": "sub-anon-2", "received_at": "2026-06-21T11:00:00Z", "channel": "phone", "person_id": null, "org_id": null, "district": null, "topics": [], "self": { "groups": [], "age_band": null }, "signature_count": 0, "duplicate_of": null }
+  ],
+  "sign_ins": [
+    { "id": "si-001", "event_id": "launch-forum-1", "at": "2026-06-25T14:00:00Z", "district": "eastern", "participant_ref": "p02" },
+    { "id": "si-002", "event_id": "launch-forum-1", "at": "2026-06-25T14:02:00Z", "district": "eastern", "participant_ref": null },
+    { "id": "si-003", "event_id": "launch-forum-1", "at": "2026-06-25T14:05:00Z", "district": "eastern", "participant_ref": null },
+    { "id": "si-004", "event_id": "launch-forum-1", "at": "2026-06-25T14:08:00Z", "district": "eastern", "participant_ref": null },
+    { "id": "si-005", "event_id": "launch-forum-1", "at": "2026-06-25T14:11:00Z", "district": "eastern", "participant_ref": null }
+  ],
+  "followup_submissions": [
+    { "id": "fu-carol-1", "received_at": "2026-07-08T12:00:00Z", "channel": "outreach_session", "person_id": "carol", "org_id": null, "district": "sham_shui_po", "topics": ["housing"], "self": { "groups": ["prh_waiting"], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "fu-frank-1", "received_at": "2026-07-08T12:10:00Z", "channel": "outreach_session", "person_id": "frank", "org_id": null, "district": "sham_shui_po", "topics": ["housing"], "self": { "groups": ["prh_waiting"], "age_band": "25_39" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "fu-ellen-1", "received_at": "2026-07-08T12:15:00Z", "channel": "outreach_session", "person_id": "ellen", "org_id": null, "district": "sham_shui_po", "topics": ["housing"], "self": { "groups": ["prh_waiting"], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "fu-p13-1", "received_at": "2026-07-08T12:20:00Z", "channel": "outreach_session", "person_id": "p13", "org_id": null, "district": "sham_shui_po", "topics": ["housing"], "self": { "groups": ["prh_waiting"], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+
+    { "id": "fu-heidi-1", "received_at": "2026-07-15T13:00:00Z", "channel": "outreach_session", "person_id": "heidi", "org_id": null, "district": "kwun_tong", "topics": ["healthcare"], "self": { "groups": ["long_term_carer"], "age_band": "40_59" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "fu-judy-1", "received_at": "2026-07-15T13:05:00Z", "channel": "outreach_session", "person_id": "judy", "org_id": null, "district": "kwun_tong", "topics": ["healthcare"], "self": { "groups": ["long_term_carer"], "age_band": "60_plus" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "fu-grace-1", "received_at": "2026-07-15T13:10:00Z", "channel": "outreach_session", "person_id": "grace", "org_id": null, "district": "kwun_tong", "topics": ["healthcare"], "self": { "groups": ["long_term_carer"], "age_band": "25_39" }, "signature_count": 0, "duplicate_of": null },
+
+    { "id": "fu-leo-1", "received_at": "2026-07-22T16:00:00Z", "channel": "outreach_session", "person_id": "leo", "org_id": null, "district": "yuen_long", "topics": ["youth_development"], "self": { "groups": ["youth"], "age_band": "15_24" }, "signature_count": 0, "duplicate_of": null },
+    { "id": "fu-mona-1", "received_at": "2026-07-22T16:10:00Z", "channel": "outreach_session", "person_id": "mona", "org_id": null, "district": "yuen_long", "topics": ["healthcare"], "self": { "groups": ["older_adult"], "age_band": "60_plus" }, "signature_count": 0, "duplicate_of": null }
+  ]
+}
