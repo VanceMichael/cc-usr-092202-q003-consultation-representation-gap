@@ -1,0 +1,119 @@
+[
+  {
+    "id": "sub-001",
+    "channel": "online",
+    "district": "北区",
+    "topics": ["housing"],
+    "disclosedCohorts": ["public-housing-waitlist"],
+    "submitterKey": "anon-a1"
+  },
+  {
+    "id": "sub-002",
+    "channel": "online",
+    "district": "北区",
+    "topics": ["housing", "youth"],
+    "disclosedCohorts": ["public-housing-waitlist"],
+    "submitterKey": "anon-a1",
+    "note": "与 sub-001 同一提交者的重复投递"
+  },
+  {
+    "id": "sub-003",
+    "channel": "online",
+    "district": "南区",
+    "topics": ["health"],
+    "disclosedCohorts": ["caregiver"],
+    "submitterKey": "anon-b2"
+  },
+  {
+    "id": "sub-004",
+    "channel": "online",
+    "district": "南区",
+    "topics": ["youth"],
+    "disclosedCohorts": ["youth"],
+    "submitterKey": "anon-c3"
+  },
+  {
+    "id": "sub-005",
+    "channel": "online",
+    "district": "中区",
+    "topics": ["housing"],
+    "disclosedCohorts": [],
+    "submitterKey": "anon-d4",
+    "text": "（示例）文字虽提及居住处境，但未自愿披露人群特征，统计时只能计入未披露。"
+  },
+  {
+    "id": "sub-006",
+    "channel": "paper",
+    "district": "北区",
+    "topics": ["health"],
+    "disclosedCohorts": ["caregiver"],
+    "submitterKey": "anon-e5"
+  },
+  {
+    "id": "sub-007",
+    "channel": "paper",
+    "district": "北区",
+    "topics": ["housing"],
+    "disclosedCohorts": ["public-housing-waitlist"]
+  },
+  {
+    "id": "sub-008",
+    "channel": "hotline",
+    "district": "南区",
+    "topics": ["health", "youth"],
+    "disclosedCohorts": []
+  },
+  {
+    "id": "sub-009",
+    "channel": "petition",
+    "petitionId": "pet-housing-1",
+    "signatureCount": 4800,
+    "district": "中区",
+    "topics": ["housing"],
+    "disclosedCohorts": [],
+    "note": "联署整份算一份集体意见，4800 个签名不并入人头数"
+  },
+  {
+    "id": "sub-010",
+    "channel": "petition",
+    "petitionId": "pet-housing-1",
+    "signatureCount": 4800,
+    "district": "中区",
+    "topics": ["housing"],
+    "disclosedCohorts": [],
+    "note": "同一份联署的重复递交，不重复计算"
+  },
+  {
+    "id": "sub-011",
+    "channel": "event-checkin",
+    "eventId": "evt-forum-1",
+    "district": "北区",
+    "topics": ["youth"],
+    "disclosedCohorts": ["youth"],
+    "note": "活动签到是到场记录，不计入意见数"
+  },
+  {
+    "id": "sub-012",
+    "channel": "event-checkin",
+    "eventId": "evt-forum-1",
+    "district": "北区",
+    "topics": ["housing"],
+    "disclosedCohorts": []
+  },
+  {
+    "id": "sub-013",
+    "channel": "online",
+    "district": "中区",
+    "topics": ["youth"],
+    "disclosedCohorts": ["youth"],
+    "submitterKey": "anon-f6"
+  },
+  {
+    "id": "sub-014",
+    "channel": "online",
+    "district": "南区",
+    "topics": ["health"],
+    "disclosedCohorts": ["caregiver"],
+    "submitterKey": "anon-g7"
+  }
+]

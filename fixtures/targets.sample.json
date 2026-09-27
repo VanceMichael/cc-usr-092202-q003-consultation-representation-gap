@@ -1,0 +1,22 @@
+{
+  "district": {
+    "北区": 3,
+    "南区": 3,
+    "中区": 3,
+    "离岛": 2
+  },
+  "cohort": {
+    "public-housing-waitlist": 5,
+    "caregiver": 3,
+    "youth": 4
+  },
+  "topic": {
+    "housing": 4,
+    "health": 4,
+    "youth": 3
+  },
+  "channel": {
+    "paper": 2,
+    "hotline": 2
+  }
+}
